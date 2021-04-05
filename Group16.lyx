@@ -1,0 +1,556 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2.5cm
+\rightmargin 1.25cm
+\bottommargin 1.25cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+CUSTOMIZE MOODLE CERTIFICATE 
+\end_layout
+
+\begin_layout Author
+MINOR PROJECT SYNOPSIS 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+BACHELOR OF TECHNOLOGY 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\align center
+Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+SUBMITTED BY
+\end_layout
+
+\begin_layout Standard
+\align center
+SIMRATH KAUR (1805561)
+\end_layout
+
+\begin_layout Standard
+\align center
+HARDEEP KAUR (1905421)
+\end_layout
+
+\begin_layout Standard
+\align center
+VANSHICA GOYAL (1905432)
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Downloads/Sample Major_Minor_Synopsis_format/logo.jpeg
+	lyxscale 30
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+GURU NANAK DEV ENGINEERING COLLEGE,
+\end_layout
+
+\begin_layout Standard
+\align center
+LUDHIANA-141006
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction 
+\end_layout
+
+\begin_layout Standard
+The aim of this project is to study how we fetch the fields in moodle .
+ Moodle is an open source virtual learning environment that is also known
+ as a course management system.
+ As an open-web application that educators can use to create Web learning
+ portals, it is now a very popular platform that many universities have
+ adopted around the world.
+ This popularity and its use of open-source code have made it a starting
+ point for in-house developments such as extensions or mobility modules
+ , automatic correction of SQL exercises , and virtual mentoring .
+\end_layout
+
+\begin_layout Standard
+In this project, we have to fetch the information of student in moodle by
+ using HTML, CSS, and php and other languages also.
+ There are three main criteria that have led universities to use Moodle
+ in their virtual campuses.
+ First of all, its teaching flexibility, as it provides added value to the
+ different teaching styles and may be adapted to the varied pedagogical
+ approaches of different teachers.
+ Secondly, it is a user-friendly application both for teachers and for students,
+ which also makes allowance for the elimination of barriers to access.
+ Finally, Moodle allows the integration of different tools, including management
+ tools, which gives it technological flexibility.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Rationale
+\series default
+: 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size small
+Why needed ?
+\end_layout
+
+\begin_layout Standard
+Integration of this kind of tools into a Learning Management System is an
+ essential feature in order to improve students’ performance.
+ 
+\end_layout
+
+\begin_layout Standard
+• To provide a very simple development environment in order to smooth the
+ learning curve to the students.
+ 
+\end_layout
+
+\begin_layout Standard
+• To be independent of the programming language.
+ To use a particular programming language it is only required that the appropria
+te compiler is installed which is not required in virtual programming lab
+ environment by moodle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Objectives 
+\end_layout
+
+\begin_layout Enumerate
+To create a certificate from the moodle activities i.e.
+ Quiz, Feedback or questionarries.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Customizing the fields from the activities on the certificate.
+\end_layout
+
+\begin_layout Enumerate
+Issue badges, medals awarded i.e.
+ Elite, Silver and Gold on the certificate.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Feasibility Study 
+\end_layout
+
+\begin_layout Standard
+The main objective of the feasibility study is to test the Technical, Operationa
+l and Economical feasibility for adding new device and debugging old running
+ device/system.
+ All system is feasible if they are unlimited resources and infinite time.
+ There are aspects in the feasibility study portion of the preliminary investiga
+tion:
+\end_layout
+
+\begin_layout Standard
+Technical Feasibility 
+\end_layout
+
+\begin_layout Standard
+Operational Feasibility
+\end_layout
+
+\begin_layout Standard
+Economical Feasibility 
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Technical Feasibility
+\end_layout
+
+\begin_layout Standard
+The technical issue usually raised during the feasibility stage of the investiga
+tion includes the following: Does the necessary technology exist to do what
+ is suggested? Do the proposed equipment have the technical capacity to
+ work properly? Are there technical guarantees of accuracy, reliability,
+ case of access and control?
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Operation Feasibility
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+Operational feasibility aspects of the project are to be taken as an important
+ part of the project implementation.
+ Some of the important issues raised are to test the operational feasibility
+ of a project includes the following: Is there controlled efficiently? Will
+ the system be used and work properly if it is being developed and implemented?
+ Will there be any resistance from the user that will undetermined the possible
+ application benefits.
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Economic Feasibility
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+In the economic feasibility, the development cost in creating the system
+ is evaluated against the ultimate benefit derived from the new systems.
+ Financial benefits must equal or exceed the costs.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Methodology/ 
+\emph on
+\color black
+Planning
+\emph default
+\color inherit
+ of work 
+\end_layout
+
+\begin_layout Standard
+Moodle is an open source virtual learning environment that is also known
+ as a course management system.
+ As an open-web application that educators can use to create Web learning
+ portals.
+ In this the back-end code comprises HTML5, CSS, and php.
+ All three types of code are contained in one .html file and can be run solely
+ from this file.
+ One of the advantages of HTML 5 is that it is not necessary to include
+ different types of web languages in a single file.
+ Therefore, each type could have been separated, making a total of three
+ files (plus the miscellaneous algorithms and image files).
+ This is good practice for readability and keeping related code together.
+ However, I decided not to separate the code for two reasons: 
+\end_layout
+
+\begin_layout Standard
+1) To increase the portability of the project by only needing to worry about
+ one project file instead of three
+\end_layout
+
+\begin_layout Standard
+2) Where in the project file, the change in coding languages is distinctly
+ marked and therefore does not significantly reduce readability.
+ Also, the ability to put more than one web language in a single file is
+ an example of an RIA (Rich Internet Application).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Facilities required for proposed work 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Hardware Requirements:- 
+\end_layout
+
+\begin_layout Itemize
+Processor: Intel® Core™ i5-7200U CPU @ 2.50GHz × 4 
+\end_layout
+
+\begin_layout Itemize
+Hard-disk: 2GB 
+\end_layout
+
+\begin_layout Itemize
+RAM: 512 MB 
+\end_layout
+
+\begin_layout Itemize
+Input Devices:-Keyboard, Mouse.
+ 
+\end_layout
+
+\begin_layout Itemize
+Output Devices:-Monitor, Printer
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Software Requirements:- 
+\end_layout
+
+\begin_layout Itemize
+Operating system: Windows 10, Windows 8.1, Windows 7,linux.
+\end_layout
+
+\begin_layout Itemize
+Front End: HTML, CSS.
+ 
+\end_layout
+
+\begin_layout Itemize
+Backend: Xampp, PHP, PHPmyadmin, MySQL.
+ 
+\end_layout
+
+\begin_layout Itemize
+Editors: Notepad, Dreamweaver MX 2004, Notepad++.
+\end_layout
+
+\begin_layout Itemize
+Documentation-Tools: MS word 2013.
+ Xampp Moodle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+References 
+\end_layout
+
+\begin_layout Description
+[1] 
+\begin_inset Quotes eld
+\end_inset
+
+Step-by-step Installation Guide for Ubuntu
+\begin_inset Quotes erd
+\end_inset
+
+.
+ [Online].
+ Available: https://docs.moodle.org/310/en/Step-by-step_Installation_Guide_for_Ubu
+ntu, 5 March 2021.
+\end_layout
+
+\begin_layout Description
+[2] Korbin Brown, 
+\begin_inset Quotes eld
+\end_inset
+
+How to install XAMPP on Ubuntu Linux
+\begin_inset Quotes erd
+\end_inset
+
+.
+ [Online].
+ Available: https://linuxconfig.org/how-to-install-xampp-on-ubuntu-linux,
+ 12 October 2020.
+\end_layout
+
+\begin_layout Description
+[3] 
+\begin_inset Quotes eld
+\end_inset
+
+About Moodle
+\begin_inset Quotes erd
+\end_inset
+
+.
+ [Online].
+ Available: https://docs.moodle.org/310/en/About_Moodle, 31 August 2020.
+\end_layout
+
+\end_body
+\end_document
